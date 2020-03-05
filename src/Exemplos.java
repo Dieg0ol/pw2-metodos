@@ -3,13 +3,25 @@ public class Exemplos {
 
 	public static void main(String[] args) {
 
-		int idade = 19;
-		
-		if (idade >= 18) {
-			System.out.println("Maior de idade");
-		} else {
+		classificar(10);
 
-			System.out.println("Menor de idade");
+	}
+
+	public static void classificar(int num) {
+		if (num < 0){
+			System.out.println("negativo");
+
+		}
+		else if (num >0) {
+			System.out.println("positivo");
+			
+		} 
+			
+		
+		
+		else {
+
+			System.out.println("zero");
 		}
 	}
 }
